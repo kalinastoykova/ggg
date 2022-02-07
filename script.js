@@ -1,38 +1,38 @@
 let reviewsData = [
     {
         id: 1,
-        title: "bla",
-        stars: `★★★`,
-        text: "blzzzzzzza",
-        name: "bl3434"
+        title: "Erna Nørgaard",
+        stars: `★★★★★`,
+        text: "I started using the app last year when a friend recommended it. There are a few farms near where I live and I've gotten to know the owners well.",
+        name: "Viby J"
     },
     {
         id: 2,
-        title: "bla4",
-        stars: 34,
-        text: "blzrzzzzzza",
-        name: "blrr3434"
+        title: "Felix Fisker",
+        stars: `★★★★`,
+        text: "Superb app, I use it for the gardening workshops. It's a bit sad that there aren't a lot of farm near me.",
+        name: "Copenhagen NV"
     },
     {
         id: 3,
-        title: "333bla",
-        stars: 3333,
-        text: "blzzz333zzzza",
-        name: "bl34333334"
+        title: "Kirsten Laursen",
+        stars: `★★★★★`,
+        text: "Before the app I used Facebook to sell my produce, but now thanks to GoGetGreen I get way more customers.",
+        name: "Roskilde"
     },
     {
         id: 4,
-        title: "b33232la",
-        stars: 31,
-        text: "blz1111zzzzzza",
-        name: "b111l3434"
+        title: "Ane Thuesen",
+        stars: `★★★★`,
+        text: "My kids like to visit farms where they can play with the animals. Thanks to the app we found one nearby.",
+        name: "Skagen"
     },
     {
         id: 5,
-        title: "eeebla",
-        stars: 313,
-        text: "egggblzzzzzzza",
-        name: "blewewe3434"
+        title: "Frank Jensen",
+        stars: `★★★★★`,
+        text: "Fresh food is always great, thank you Go Get Green!!",
+        name: "Esbjerg"
     }
 ]
 

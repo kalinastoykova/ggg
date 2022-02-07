@@ -1,19 +1,236 @@
-* {
-    background-color: pink;
+// colors: #D7E4E0 bg color
+// text color: #104F55
 
-    h1{
-        color: green;
-    }
+//variables
+$bg-color: #D7E4E0;
+$orange-color: #E07A5F;
+$heading-color: #104F55;
+$dark-text-color: #01200F;
+$middle-green: #32746D;
+
+
+main, header {
+    margin: 0 300px;
+}
+
+body {
+    background-color: $bg-color;
+}
+
+h2 {
+    font-family: Poppins;
+    font-size: 2.6em;
+    text-align: center;
+    margin-top: 100px;
+    color: $heading-color;
 }
 
 .reviews {
     display: grid;
     grid-template-columns: repeat(3, 1fr);
-    grid-template-rows: repeat(5, 1fr);
-    grid-column-gap: 10px;
+    grid-column-gap: 70px;
     grid-row-gap: 0px;
+    font-family: Karla;
+    color: $dark-text-color;
+    margin-bottom: 100px;
 
     .star {
-        color: yellow;
+        color: $orange-color;
+        font-size: 20px;
+    }
+
+    h3 {
+        margin: 0;
+        color: $heading-color;
+        font-size: 1.6em;
+    }
+
+    h4 {
+        color: $middle-green;
+        font-size: 1.2em;
+        margin: 0;
+    }
+
+    p {
+        font-size: 1.1em;
+    }
+}
+
+// navigation menu
+nav {
+    margin-bottom: 50px;
+}
+#active {
+    color: $orange-color;
+}
+
+ul {
+    margin: 0;
+    padding: 0;
+    list-style-type: none;
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+    height: 50px;
+    font-family: Poppins;
+    font-weight: 500;
+}
+
+li a {
+    padding: 15px 2em;
+    font-size: 1.2em;
+    color: $heading-color;
+    text-decoration: none;
+    text-align: center;
+    transition: .4s;
+}
+
+//main
+#homepage-container {
+    display: flex;
+    font-family: Karla;
+    margin-bottom: 100px;
+
+    #homepage-left {
+        width: 40%;
+    }
+
+    a {
+        text-decoration: none;
+        font-size: 1.6em;
+    }
+
+    a:hover {
+        opacity: 0.9;
+    }
+
+    #button-primary {
+        background-color: $middle-green;
+        outline: 2px solid $middle-green;
+
+        color: white;
+        padding: 10px 20px;
+        margin-right: 50px;
+    }
+
+    #button-secondary {
+        outline: 2px solid $middle-green;
+        color: $middle-green;
+        padding: 10px 20px;
+    }
+
+
+    #homepage-h1 {
+        font-size: 4em;
+        font-family: Poppins;
+        color: $heading-color;
+    }
+
+    img {
+        width: 150%;
+    }
+}
+
+//ABOUT US PAGE
+
+// video
+#vid-container {
+      height: 100vh;
+
+      #myVideo {
+        position: absolute;
+        right: 0;
+        bottom: 0;
+        min-width: 100%;
+        min-height: 100%;
+        z-index: -1;
+    }
+}
+
+#how-it-works {
+    font-family: Poppins;
+    text-align: center;
+    font-size: 3em;
+    color: $heading-color;
+}
+
+p {
+    font-family: Karla;
+    color: $dark-text-color;
+    font-size: 1.4em;
+}
+
+#icons-hiw, #icons-missions {
+    margin-top: 80px;
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-column-gap: 100px;
+    grid-row-gap: 0px;
+    
+    div {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+    
+    img {
+        width: 100px;
+    }
+
+    .icon-text {
+        font-size: 1.3em;
+        padding: 0;
+        font-weight: 600;
+        text-align: center;
+        margin: 10px 0;
+        color: $heading-color;
+    }
+
+    .icon-desc {
+        font-size: 1em;
+        margin: 0;
+    }
+}
+
+
+#why {
+    display: flex;
+    margin-bottom: 100px;
+
+    #why-left {
+        margin-right: 70px;
+    }
+}
+
+footer {
+    background-color: $heading-color;
+    display: flex;
+    justify-content: space-around;
+    width: calc(100vw - 600px - 80px);
+    margin: 0 auto;
+    padding: 40px;
+
+    #footer-logo {
+        width: 70px;
+    }
+
+    h3 {
+        font-family: Poppins;
+        font-weight: 500;
+        color: white;
+        font-size: 1.2em;
+        margin: 0;
+    }
+
+    svg {
+        width: 40px;
+    }
+
+    p {
+        color: white;
+        font-family: Karla;
+        font-size: 1em;
+        font-weight: 300;
+        margin: 5px 0;
     }
 }

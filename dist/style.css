@@ -1,19 +1,199 @@
-* {
-  background-color: pink;
+main, header {
+  margin: 0 300px;
 }
-* h1 {
-  color: green;
+
+body {
+  background-color: #D7E4E0;
+}
+
+h2 {
+  font-family: Poppins;
+  font-size: 2.6em;
+  text-align: center;
+  margin-top: 100px;
+  color: #104F55;
 }
 
 .reviews {
   display: grid;
   grid-template-columns: repeat(3, 1fr);
-  grid-template-rows: repeat(5, 1fr);
-  grid-column-gap: 10px;
+  grid-column-gap: 70px;
   grid-row-gap: 0px;
+  font-family: Karla;
+  color: #01200F;
+  margin-bottom: 100px;
 }
 .reviews .star {
-  color: yellow;
+  color: #E07A5F;
+  font-size: 20px;
+}
+.reviews h3 {
+  margin: 0;
+  color: #104F55;
+  font-size: 1.6em;
+}
+.reviews h4 {
+  color: #32746D;
+  font-size: 1.2em;
+  margin: 0;
+}
+.reviews p {
+  font-size: 1.1em;
+}
+
+nav {
+  margin-bottom: 50px;
+}
+
+#active {
+  color: #E07A5F;
+}
+
+ul {
+  margin: 0;
+  padding: 0;
+  list-style-type: none;
+  display: flex;
+  justify-content: flex-end;
+  align-items: center;
+  height: 50px;
+  font-family: Poppins;
+  font-weight: 500;
+}
+
+li a {
+  padding: 15px 2em;
+  font-size: 1.2em;
+  color: #104F55;
+  text-decoration: none;
+  text-align: center;
+  transition: 0.4s;
+}
+
+#homepage-container {
+  display: flex;
+  font-family: Karla;
+  margin-bottom: 100px;
+}
+#homepage-container #homepage-left {
+  width: 40%;
+}
+#homepage-container a {
+  text-decoration: none;
+  font-size: 1.6em;
+}
+#homepage-container a:hover {
+  opacity: 0.9;
+}
+#homepage-container #button-primary {
+  background-color: #32746D;
+  outline: 2px solid #32746D;
+  color: white;
+  padding: 10px 20px;
+  margin-right: 50px;
+}
+#homepage-container #button-secondary {
+  outline: 2px solid #32746D;
+  color: #32746D;
+  padding: 10px 20px;
+}
+#homepage-container #homepage-h1 {
+  font-size: 4em;
+  font-family: Poppins;
+  color: #104F55;
+}
+#homepage-container img {
+  width: 150%;
+}
+
+#vid-container {
+  height: 100vh;
+}
+#vid-container #myVideo {
+  position: absolute;
+  right: 0;
+  bottom: 0;
+  min-width: 100%;
+  min-height: 100%;
+  z-index: -1;
+}
+
+#how-it-works {
+  font-family: Poppins;
+  text-align: center;
+  font-size: 3em;
+  color: #104F55;
+}
+
+p {
+  font-family: Karla;
+  color: #01200F;
+  font-size: 1.4em;
+}
+
+#icons-hiw, #icons-missions {
+  margin-top: 80px;
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  grid-column-gap: 100px;
+  grid-row-gap: 0px;
+}
+#icons-hiw div, #icons-missions div {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+#icons-hiw img, #icons-missions img {
+  width: 100px;
+}
+#icons-hiw .icon-text, #icons-missions .icon-text {
+  font-size: 1.3em;
+  padding: 0;
+  font-weight: 600;
+  text-align: center;
+  margin: 10px 0;
+  color: #104F55;
+}
+#icons-hiw .icon-desc, #icons-missions .icon-desc {
+  font-size: 1em;
+  margin: 0;
+}
+
+#why {
+  display: flex;
+  margin-bottom: 100px;
+}
+#why #why-left {
+  margin-right: 70px;
+}
+
+footer {
+  background-color: #104F55;
+  display: flex;
+  justify-content: space-around;
+  width: calc(100vw - 600px - 80px);
+  margin: 0 auto;
+  padding: 40px;
+}
+footer #footer-logo {
+  width: 70px;
+}
+footer h3 {
+  font-family: Poppins;
+  font-weight: 500;
+  color: white;
+  font-size: 1.2em;
+  margin: 0;
+}
+footer svg {
+  width: 40px;
+}
+footer p {
+  color: white;
+  font-family: Karla;
+  font-size: 1em;
+  font-weight: 300;
+  margin: 5px 0;
 }
 
 /*# sourceMappingURL=style.css.map */
