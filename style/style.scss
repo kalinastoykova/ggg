@@ -85,6 +85,13 @@ li a {
     transition: .4s;
 }
 
+.menu-logo {
+    width: 70px;
+    position: fixed;
+    left: 300px;
+    top: 10px;
+}
+
 //main
 #homepage-container {
     display: flex;
@@ -211,7 +218,7 @@ footer {
     padding: 40px;
 
     #footer-logo {
-        width: 70px;
+        width: 150px;
     }
 
     h3 {

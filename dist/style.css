@@ -70,6 +70,13 @@ li a {
   transition: 0.4s;
 }
 
+.menu-logo {
+  width: 70px;
+  position: fixed;
+  left: 300px;
+  top: 10px;
+}
+
 #homepage-container {
   display: flex;
   font-family: Karla;
@@ -176,7 +183,7 @@ footer {
   padding: 40px;
 }
 footer #footer-logo {
-  width: 70px;
+  width: 150px;
 }
 footer h3 {
   font-family: Poppins;
